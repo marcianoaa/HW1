@@ -1,0 +1,178 @@
+body {
+  background-image: url("mirrored-squares.png");
+  font-family: 'Pontano Sans', sans-serif;
+    letter-spacing: 1px;
+    
+}
+
+header {
+  height: 150px;
+  padding-bottom: 30px;
+  text-align: center;
+}
+
+img.banner {
+  height: 130%;
+  margin-right: auto;
+  margin-left: auto;
+    
+}
+
+#wrapper {
+  margin-left: auto;
+  margin-right: auto;
+  width: 800px;
+  background-color: white;
+    padding: 40px;
+    padding-bottom: 10px;
+    border: 6px double darkslategray;
+    overflow:scroll;
+    
+    
+}
+
+nav ul {
+  position: absolute;
+  width: 100%;
+  list-style-type: none;
+  background-color: #d6a39a;
+  text-align: center;
+  font-family: 'Julius Sans One', sans-serif;;
+  text-transform: uppercase;
+  font-size: 1em;
+  margin-left: -40px;
+}
+
+nav a:hover {
+  background-color: #d6a39a;
+  color: darkslategrey;
+}
+
+nav a:active {
+  background-color: #d6a39a;
+  color: darkslategrey;
+}
+
+li {
+  display: inline-block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding-top: 14px;
+  padding-right: 16px;
+  padding-bottom: 14px;
+  padding-left: 16px;
+  text-decoration: none;
+}
+
+ul li ul {
+  display: none;
+  width: 20%;
+  padding-left: 0px;
+}
+
+nav li:hover ul {
+  display: block;
+}
+
+ul li ul li {
+  position: relative;
+  display: block;
+}
+
+h1 {
+  text-align: center;
+    font-family: 'Julius Sans One', sans-serif;
+}
+
+p {
+  text-align: center;
+    padding: 20px;
+    font-size: 1.1em;
+}
+
+
+
+
+.leftcol {
+    float: left;
+    width: 50%;
+    text-align: center;
+    
+    
+}
+
+.rightcol {
+    float: right;
+    width: 50%;
+    text-align: center;
+
+}
+
+.footer {
+    height: 50px;
+    border-top: 3px outset #d6a39a;
+    bottom: 0;
+    left: 0;  
+    
+    background-color: white;
+    padding: 10px;
+    font-size: small;
+    font-style: italic;
+    width: 100%;
+    text-align: center;
+    
+}
+
+h2 {
+    text-align: center;
+    font-family: 'Julius Sans One', sans-serif;
+}
+
+
+.table {
+  background-color: white;
+    padding: 10px;
+  margin-left: auto;
+  margin-right: auto;
+    border: 5px double lightgray;
+    text-align: center;
+}
+
+th {
+    font-size: 1.2em;
+}
+
+td {
+    padding: 20px;
+}
+
+.button {
+    border: none;
+    display: inline;
+    padding: 10px;
+    margin-left: 300px;
+
+
+}
+
+dt {
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
